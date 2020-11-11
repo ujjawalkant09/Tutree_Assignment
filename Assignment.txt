@@ -1,0 +1,30 @@
+Question: Explain dimension reduction in machine learning.
+
+-> Dimensionality reduction is the process of reducing 
+   the number of random variables under consideration ,
+   by obtaining a set of principal variables. It can be
+   divided into feature selection and feature extraction.
+
+
+Question: How can you handle duplicate values in a 
+          dataset for a variable in Python using pandas?
+ 
+          df = pd.read_csv('file.csv')
+
+->  First we have to check for duplicates for that we will 
+    use 
+    df.duplicated()  
+    So this will return pandas series and give us information about duplicates
+    
+   To checks if there are duplicate values in a particular column of your DataFrame.
+   we will use : 
+   df.duplicated("col_name")
+
+   Getting rid of duplicates :
+   
+   Getting rid of duplicate records is easy.
+   Just use : df.drop_duplicates()
+   from this command we will drop all the duplicate values .
+   
+   
+
